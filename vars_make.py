@@ -1,0 +1,22 @@
+#Input 
+
+radius = int(input("Radius:"))
+length = int(input("Length:"))
+width = int(input("Width:"))
+side_length = int(input("Side length:"))
+
+#Processing 
+area_circle = 3.1415926535897932384 *(radius**2) 
+per_circle = 2*3.1415926535897932384*radius
+
+
+
+area_rect = length * width
+per_rect = 2*(length+width)
+
+
+oct_area = 2*(1+2**0.5)*side_length**2
+per_oct = 8*side_length 
+
+print(f"The circle has an area of{area_circle} and a perimeter of{per_circle}")
+print(f"The rectangle has an area of{area_rect} and a perimeter of {per_rect}")
