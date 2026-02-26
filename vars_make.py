@@ -1,3 +1,10 @@
+"""
+author: Judy El Shentnawy
+date: 2026-02-20
+This program sorts three numbers from least to greatest using only if statements.
+"""
+
+
 #Input 
 
 radius = int(input("Radius:"))
@@ -20,3 +27,4 @@ per_oct = 8*side_length
 
 print(f"The circle has an area of{area_circle} and a perimeter of{per_circle}")
 print(f"The rectangle has an area of{area_rect} and a perimeter of {per_rect}")
+print(f"The octagon has an area of {oct_area} and a perimeter of {per_oct}")
