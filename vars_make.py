@@ -3,7 +3,7 @@ author: Judy El Shentnawy
 date: 2026-02-20
 This program sorts three numbers from least to greatest using only if statements.
 """
-
+import math
 
 #Input 
 
@@ -13,8 +13,8 @@ width = int(input("Width:"))
 side_length = int(input("Side length:"))
 
 #Processing 
-area_circle = 3.1415926535897932384 *(radius**2) 
-per_circle = 2*3.1415926535897932384*radius
+area_circle = (math.pi) *(radius**2) 
+per_circle = 2*math.pi*radius
 
 
 
@@ -22,7 +22,7 @@ area_rect = length * width
 per_rect = 2*(length+width)
 
 
-oct_area = 2*(1+2**0.5)*side_length**2
+oct_area = 2*(1+math.sqrt(2))*side_length**2
 per_oct = 8*side_length 
 
 print(f"The circle has an area of{area_circle} and a perimeter of{per_circle}")
